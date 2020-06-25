@@ -1,0 +1,10 @@
+> Em phyton é possível usar aspas simples e também aspas duplas.
+> Toda variável é um objeto para o phyton.
+> int, float, bool, str. São os tipos primitivos em python.
+> operadores: +, -, /, *, // significa divisão inteira, ** significa elevar ao quadrado, %.
+> precedência: (), **, * / // %, + - da esquerda para a direita->.
+> \n serve para fazer a quebra de linha.
+> end ='' faz com que ele não faça a quebra de linha e coloque tudo junto.
+> módulos: import j -> importa todas os recursos j = (@@@, !!!, $$$)
+from j import @@@ -> importa só o recurso (@@@) desejado e não j !
+> math = biblioteca padrão para trabalhar com contas matemáticas no python.
