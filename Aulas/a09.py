@@ -7,7 +7,7 @@ print('FIM!')
 
 
 soma = 0
-while True:
+while True:  # Loop Infinito
     n = int(input('Digite um número: '))
     if n == 0:
         break
