@@ -5,5 +5,5 @@ for pos in range(0, len(produtos)):
     if pos % 2 == 0:
         print(f'{produtos[pos]:.<30}', end = '')
     else:
-        print(f'{produtos[pos]:>7}')
+        print(f'{produtos[pos]:>2}')
 
