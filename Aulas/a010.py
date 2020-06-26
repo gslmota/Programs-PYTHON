@@ -12,5 +12,5 @@ c= a + b
 print(c)
 print(c.count(5)) # Mostra quantas vezes aparece o 5
 print(c.index(3)) # Mostra a posição em que está o 3
-print(C.index(2, 4)) # Mostra a posição do 2 se houver outro a partir da posição 4
+print(c.index(2, 4)) # Mostra a posição do 2 se houver outro a partir da posição 4
 # Uma tupla aceita nomes e numeros ex: a = ('pedro', 10, 23.4)
