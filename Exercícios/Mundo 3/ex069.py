@@ -2,7 +2,7 @@
 lista = [] # ou lista = val()
 while True:
     n = (int(input('Digite um número: ')))
-    if n in lista:
+    if n in lista: # poderia ser n not in lista
         print('Este valor não pode ser adiconado pois já existe!')
     else:
         lista.append(n)
