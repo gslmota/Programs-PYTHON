@@ -13,3 +13,11 @@ for c in range(0, 5):
             menor = lista[c]
 print(lista)
 print(f'O maior é {maior} e o menor é {menor}')
+for x, z in enumerate(lista):
+    if z == maior:
+        print(f'O maior apareceu na posição {x}', end = '')
+
+for x, z in enumerate(lista):
+    if z == menor:
+        print(f'O menor apareceu na posição {x} ', end = '')
+print('FIM!')
