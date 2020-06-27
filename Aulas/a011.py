@@ -14,6 +14,18 @@ num.remove(4) # remove o 4 da lista, se houver mais de 1, ele remove apenas a pr
 
 
 valores = [] # cria uma lista vazia
+valores.append(4)
+valores.append(8)
+valores.append(3)
+
+for c, v in enumerate(valores):
+    print(f'Na posição {c} encontrei o valor: {v}...')
+
+
+a = [3, 2, 4]
+b = a # faz uma ligação de b com a , para fazer copia seria b = a[:] 
+# ^ toda alteração feita na lista a ou b em uma ligação altera a outra lista tambem
+
 
  
 
