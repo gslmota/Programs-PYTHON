@@ -9,6 +9,8 @@ while cont < 5:
         pos = 0
         while pos < len(val):
             if n <= val[pos]:
-                
+                val.insert(pos, n)
+                break
+            pos += 1
     cont += 1
 print(val)
