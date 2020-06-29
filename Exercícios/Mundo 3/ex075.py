@@ -11,3 +11,6 @@ while True:
     n = str(input ('Deseja Continuar? S/N')).strip()
     if n in 'Nn':
         break
+    for p in galera:
+    if p[1] > 100:
+        print(f'{p[0]} é de  maior peso!')
