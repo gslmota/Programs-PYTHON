@@ -8,3 +8,6 @@ while True:
     galera.append(dado[:])
     dado.clear()
     quant += 1
+    n = str(input ('Deseja Continuar? S/N')).strip()
+    if n in 'Nn':
+        break
