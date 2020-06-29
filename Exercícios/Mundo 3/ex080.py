@@ -10,4 +10,6 @@ while True:
     if n in 'Nn':
         break
 print(ficha)
-print(f'{None:<4}{None}')
+print(f'{"No.":< 4}{"Nome":< 10}')
+for i, a in enumerate(ficha):
+    print(f'{i:< 4}{a[0]:< 10}{a[2]:> 8.1f}')
