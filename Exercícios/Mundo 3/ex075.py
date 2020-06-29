@@ -16,3 +16,4 @@ while True:
             print(f'{p[0]} é de  maior peso!')
         elif p[1] < 70:
             print(f'{p[0]} é de menor peso!')
+print(f'Temos {quant} pessoas cadastrada!')
