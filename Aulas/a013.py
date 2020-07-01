@@ -31,5 +31,8 @@ ebrasil = []
 for c in range(0,3):
     estado['uf'] = str(input('Digite o seu estado: '))
     estado ['sigla'] = str(input("Digite a Sigla do seu estado: "))
-    brasil.append(estado.copy())
+    ebrasil.append(estado.copy())
 
+for e in ebrasil:
+    for k, v in e.items():
+        print(f'O campo {k} tem valor {v}.')
