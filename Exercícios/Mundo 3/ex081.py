@@ -7,4 +7,4 @@ if aluno['media'] >= 7:
 else:
     aluno['situação'] = 'Reprovado'
 
-print(aluno)
+print(f'O aluno {aluno["nome"]} tem media {aluno["media"]} e sua situação é {aluno["situação"]}!')
