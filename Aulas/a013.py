@@ -23,3 +23,10 @@ brasil.append(estado1)
 brasil.append(estado2)
 print(brasil)
 print(brasil[0]['sigla'])
+
+
+
+estado = dict()
+ebrasil = []
+for c in range(0,3):
+    
