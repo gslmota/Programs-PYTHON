@@ -22,3 +22,4 @@ estado2 = {'uf' : 'Minas Gerais', 'sigla' : 'MG'}
 brasil.append(estado1)
 brasil.append(estado2)
 print(brasil)
+print(brasil[0]['sigla'])
