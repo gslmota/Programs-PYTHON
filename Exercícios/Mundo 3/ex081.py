@@ -1,13 +1,10 @@
 # Cadastro e situação de aluno usando dicionarios
 aluno = {}
-nome = str(input('Digite o nome do aluno: '))
-media = float(input('Digite a media do aluno: '))
-nome.append(aluno)
-media.append(aluno)
-if media < 7:
-    situação = 'Reprovado'
-    situação.append(aluno)
-else: 
-    situação = 'Aprovado'
-    situação.append(aluno)
+aluno['nome'] = str(input('Digite o nome do aluno: '))
+aluno['media'] = float(input('Digite a media do aluno: '))
+if aluno['media'] >= 7:
+    aluno['situação'] = 'Aprovado'
+else:
+    aluno['situação'] = 'Reprovado'
+
 print(aluno)
