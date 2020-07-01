@@ -10,3 +10,9 @@ print(dados.items())
 
 for k in dados.keys():
     print(k) 
+
+del dados['nome']
+
+
+
+# Criando um dicionario dentro de uma lista
