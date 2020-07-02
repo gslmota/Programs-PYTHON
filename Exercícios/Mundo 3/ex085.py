@@ -17,4 +17,13 @@ while True:
 print(f'Foram cadastradas {tcadastrada} pessoas!')
 media = soma / len(dadosPessoas)
 print(f'A media de idade é {media} anos!')
-print('As mulheres cadastradas foram', end = '')
+print('As mulheres cadastradas foram: ', end = '')
+for p in dadosPessoas:
+    if p['Sexo'] == 'F':
+        print(f'{p[" Nome"]}', end = '')
+print()
+print('Pessoas acima da media de idade: ', end = '')
+for c in dadosPessoas:
+    if c['Idade'] > media:
+        print(f'{c["Nome"]}', end = '')
+print('FIM!')
