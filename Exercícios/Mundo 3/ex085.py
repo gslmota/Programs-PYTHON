@@ -26,4 +26,5 @@ print('Pessoas acima da media de idade: ', end = '')
 for c in dadosPessoas:
     if c['Idade'] > media:
         print(f'{c["Nome"]}', end = '')
+        print()
 print('FIM!')
