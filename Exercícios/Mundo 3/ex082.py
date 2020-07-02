@@ -15,3 +15,4 @@ for k, v in jogadas.items():
 ranking = sorted(jogo.items(), key = itemgetter(1), reverse = True)
 for i, v in enumerate(ranking):
     print(f'{i + 1}º lugar: {v[0]} com {v[1]} pomtos!')
+    sleep(1)
