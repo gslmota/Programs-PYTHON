@@ -8,9 +8,9 @@ jogadas['jogador 1'] = randint(1,6)
 jogadas['jogador 2'] = randint(1,6)
 jogadas['jogador 3'] = randint(1,6)
 jogadas['jogador 4'] = randint(1,6)
-ranking = dict()
+ranking = list()
 for k, v in jogadas.items():
     sleep(1)
     print(f'O {k} jogou {v}!')
 ranking = sorted(jogo.items(), key = itemgetter(1), reverse = True)
-print(ranking)
+for 
