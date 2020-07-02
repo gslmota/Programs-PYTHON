@@ -12,7 +12,7 @@ ranking = list()
 for k, v in jogadas.items():
     sleep(1)
     print(f'O {k} jogou {v}!')
-ranking = sorted(jogo.items(), key = itemgetter(1), reverse = True)
+ranking = sorted(jogadas.items(), key = itemgetter(1), reverse = True)
 for i, v in enumerate(ranking):
     print(f'{i + 1}º lugar: {v[0]} com {v[1]} pomtos!')
     sleep(1)
