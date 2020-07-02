@@ -22,4 +22,5 @@ tp = z
 x = 0
 while x < tp:
     print(f'Na partida{x+1}, fez {tgols[x]}')
+    x += 1
 print(f'O jogador {jogador["Nome"]} fez {qgols} gols!')
