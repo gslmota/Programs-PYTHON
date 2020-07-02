@@ -17,3 +17,4 @@ while True:
 print(f'Foram cadastradas {tcadastrada} pessoas!')
 media = soma / len(dadosPessoas)
 print(f'A media de idade é {media} anos!')
+print('As mulheres cadastradas foram', end = '')
