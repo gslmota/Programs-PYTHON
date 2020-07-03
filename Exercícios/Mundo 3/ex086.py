@@ -21,8 +21,17 @@ for i in jogador.keys():
     print(f'{i:<15}', end = '')
 print()
 for k, v in enumerate(time):
-    print(f'{k:>4}', end ='')
+    print(f'{k:>3}', end ='')
     for d in k.values():
         print(f'{str(d):<15}', end = '')
     print()
 print('-' * 40)
+while True:
+    bus = int(input('Digite o número do jogador que você deseja buscar os dados: [00 para a busca]'))
+    if bus == 00:
+        break
+    print(f'Levantamento de Jogador {time[bus] ["nome"]}: ')
+    for i, g in enumerate(time[bus]['gols']):
+        print(f'    No jogo {i + 1} fez {g} gols!')
+    print('-' * 40)
+print('Fim!')
