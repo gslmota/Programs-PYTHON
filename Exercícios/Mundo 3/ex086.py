@@ -1,27 +1,11 @@
-# aprimoramento do ex 084
-# Gerenciamento de jogador de futebol
-jogador = {
-    'Nome' : str(input('Nome: '))
-}
-z = int(input('Quantidade de partidas: '))
-tgols = []
-c = 0
-qgols = 0
-while c < z:
-    n = int(input(f'Qual o total de gols na partida {c+1}?'))
-    tgols.append(n)
-    qgols += n
-    c += 1
-jogador['Gols'] = tgols[:]
-jogador['Total de Gols'] = qgols
-print(jogador)
-for k, v in jogador.items():
-    print(f'O campo {k} tem valor {v}!')
-
-print(f'O jogador {jogador["Nome"]} jogou {z} partidas!')
-tp = z
-x = 0
-while x < tp:
-    print(f'Na partida{x+1}, fez {tgols[x]}')
-    x += 1
-print(f'O jogador {jogador["Nome"]} fez {qgols} gols!')
+# Aprimoramento de cadastro de jogador
+time = list()
+jogador = dict()
+partidas = list()
+while True: 
+    jogador['nome'] = str(input('Digite o nome: '))
+    tot = int(input(f'Quantas partidas {jogador["nome"]} jogou?'))
+    for c in range(0,tot):
+        partidas.append(int(input(f'Quantod gols na partida {c+1} ?')))
+    jogador['gols'] = partidas[:]
+    jogador['total'] = sum(partidas)
