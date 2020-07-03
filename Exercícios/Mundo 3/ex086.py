@@ -16,6 +16,10 @@ while True:
     if r in 'Nn':
         break
 print('-' * 40)
+print('cod', end = '')
+for i in jogador.keys():
+    print(f'{i:<15}', end = '')
+print()
 for k, v in enumerate(time):
     print(f'{k:>4}', end ='')
     for d in k.values():
