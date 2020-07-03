@@ -17,7 +17,7 @@ while True:
         break
 print('-' * 40)
 for k, v in enumerate(time):
-    print(f'{k:>3}', end ='')
+    print(f'{k:>4}', end ='')
     for d in k.values():
         print(f'{str(d):<15}', end = '')
     print()
