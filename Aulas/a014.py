@@ -36,4 +36,5 @@ soma(2,54)
 contador(1, 3)
 contador(1, 3, 4, 5, 6)
 contador(3)
-dobra(valores)
+dobra(valores
+)
