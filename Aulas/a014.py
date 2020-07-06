@@ -15,9 +15,15 @@ def soma(a,b):
     print(s)
 
 
+def contador(*n):
+    print(n)
 # Programa principal
 linha()
 print('Olá mundo!')
 linha()
 mensagem('Oi tudo bem?')
 soma(2,54)
+
+contador(1, 3)
+contador(1, 3, 4, 5, 6)
+contador(3)
