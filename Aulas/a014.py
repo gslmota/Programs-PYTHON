@@ -12,10 +12,11 @@ def mensagem(msg):
 
 
 
-def dobra(valores):
-    for c in valores:
-        valores[c] = 2 * valores[c]
-    print(valores)
+def dobra(lst):
+    cont = 0
+    while cont < len(lst):
+        lst[cont] *= 2
+    cont += 1
 
 def soma(a,b):
     s = a + b
