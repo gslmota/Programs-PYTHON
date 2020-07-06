@@ -5,4 +5,6 @@ def area(comp, larg):
 
 
 #programa principal
-l = float(input(''))
+c = float(input('Digie o comprimento: '))
+l = float(input('Digite a largura: '))
+area(c, l)
