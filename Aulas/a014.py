@@ -16,7 +16,8 @@ def soma(a,b):
 
 
 def contador(*n):
-    print(n)
+    for v in n:
+        print(v)
 # Programa principal
 linha()
 print('Olá mundo!')
