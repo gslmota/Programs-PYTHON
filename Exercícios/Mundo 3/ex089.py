@@ -1,0 +1,1 @@
+# Função que realiza contagem
