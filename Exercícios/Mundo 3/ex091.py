@@ -13,7 +13,10 @@ def sortearLista(lista):
 def somaPares(lista):
     soma = 0
     for val in lista:
+        if val % 2 == 0:
+            soma += val
         
+
 
 
 
