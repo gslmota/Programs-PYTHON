@@ -6,3 +6,5 @@ def sortearLista():
 def somaPares():
 
 
+
+# Programa principal
