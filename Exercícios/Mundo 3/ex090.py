@@ -1,16 +1,18 @@
 # função que descobre qual o elemento maior
 def maior(* num):
-    cont = maior = 0
+    con = 0
+    maior = 0
     for val in num:
-        if cont == 0:
+        if con == 0:
             maior = val
+            con += 1
         else:
             if val > maior:
                 maior = val
-            
+        con += 1
+print(f'Foram informados {con} valores')
+print(f'O maior valor é {maior}')
         
-
-
 
 
 # pragrama principal
