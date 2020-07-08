@@ -2,6 +2,12 @@
 def maior(* num):
     cont = maior = 0
     for val in num:
+        if cont == 0:
+            maior = val
+        else:
+            if val > maior:
+                maior = val
+            
         
 
 
