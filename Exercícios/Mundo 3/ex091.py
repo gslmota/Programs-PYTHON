@@ -15,7 +15,7 @@ def somaPares(lista):
     for val in lista:
         if val % 2 == 0:
             soma += val
-        
+    print(f'Somando os valores pares de {lista}, temos {soma}')   
 
 
 
