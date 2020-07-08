@@ -2,7 +2,7 @@
 from random import randint
 def sortearLista(lista):
     for cont in range(0, 5):
-        lista.append()
+        lista.append(randint(1, 10))
 
 def somaPares():
 
