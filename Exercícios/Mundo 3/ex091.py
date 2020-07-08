@@ -9,3 +9,4 @@ def somaPares():
 
 # Programa principal
 num = list()
+sortearLista(num)
