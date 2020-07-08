@@ -2,6 +2,7 @@
 from random import randint
 from time import sleep
 def sortearLista(lista):
+    print('Sorteando 5 valores para a lista!', end ='')
     for cont in range(0, 5):
         n = randint(1, 10)
         lista.append(n)
@@ -9,10 +10,14 @@ def sortearLista(lista):
         sleep(0.3)
     print('Pronto!!!')
 
-def somaPares():
+def somaPares(lista):
+    soma = 0
+    for val in lista:
+        
 
 
 
 # Programa principal
 num = list()
 sortearLista(num)
+somaPares(num)
