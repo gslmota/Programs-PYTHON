@@ -1,3 +1,8 @@
 # Sortear números e somar
-def soma():
-    
+def sortearLista():
+
+
+
+def somaPares():
+
+
