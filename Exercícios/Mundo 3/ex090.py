@@ -1,5 +1,6 @@
 # função que descobre qual o elemento maior
-def maior():
+def maior(* num):
+    
 
 
 
