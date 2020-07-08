@@ -1,7 +1,8 @@
 # função que descobre qual o elemento maior
 def maior(* num):
     cont = maior = 0
-    
+    for val in num:
+        
 
 
 
