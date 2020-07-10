@@ -55,3 +55,9 @@ def fatorial(num = 1):
     for c in range(num, 0, -1):
         f *= c
     return f
+
+
+# programa principal
+n = int(input('Digite um número: '))
+print(f'O fatorial de N é: {fatorial(n)}')
+
