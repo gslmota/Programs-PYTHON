@@ -38,3 +38,12 @@ somar(2, 3)
 # Escopo de variaveis
 # variaveis em funções sao locais
 # fora elas sao globais / para fazer as modificações deve se colocar global namevariavel
+
+
+# retorno de valores
+def soma(a = 0, b = 0):
+    s = a + b
+    return s
+
+# programa principal
+soma(2,6)
