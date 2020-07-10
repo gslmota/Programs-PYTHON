@@ -36,3 +36,5 @@ somar(2, 3)
 # e possivel nomear os parametros fazendo assim -> somar(c = 9, b = 3)
 
 # Escopo de variaveis
+# variaveis em funções sao locais
+# fora elas sao globais
