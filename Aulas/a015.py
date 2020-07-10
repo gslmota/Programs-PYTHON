@@ -46,4 +46,5 @@ def soma(a = 0, b = 0):
     return s
 
 # programa principal
-soma(2,6)
+resposta = soma(2,6)
+print(resposta)
