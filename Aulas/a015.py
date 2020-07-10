@@ -37,4 +37,4 @@ somar(2, 3)
 
 # Escopo de variaveis
 # variaveis em funções sao locais
-# fora elas sao globais
+# fora elas sao globais / para fazer as modificações deve se colocar global namevariavel
