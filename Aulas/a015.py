@@ -33,3 +33,4 @@ def somar(a = 0, b = 0, c = 0):
 
 # programa principal
 somar(2, 3)
+# e possivel nomear os parametros fazendo assim -> somar(c = 9, b = 3)
