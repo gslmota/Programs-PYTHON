@@ -23,3 +23,13 @@ def contador(i, f, p):
 # Programa principal
 contador(2, 20, 5)
 help(contador)
+
+# Parametros Opcionais
+# Esse parametros servem para complementar valores faltantes
+
+def somar(a = 0, b = 0, c = 0):
+    s = a + b + c
+    print(s)
+
+# programa principal
+somar(2, 3)
