@@ -5,5 +5,7 @@ def voto(ano):
     from datetime import date
     atual = date.today().year
     idade = atual - ano
+    if idade < 16:
+        return f'Com {idade} não vota!'
 
     
