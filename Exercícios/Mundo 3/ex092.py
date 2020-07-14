@@ -9,5 +9,6 @@ def voto(ano):
         return f'Com {idade} não vota!'
     elif idade < 18:
         return f'Com {idade} o voto é opcionla!'
-
+    else: 
+        return f'Com {idade} o voto é obrigatório!'
     
