@@ -12,4 +12,5 @@ def voto(ano):
     else: 
         return f'Com {idade} o voto é obrigatório!'
 # Programa principal
+
     
