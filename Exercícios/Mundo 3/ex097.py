@@ -1,11 +1,11 @@
 # Sistema de ajuda em Python
 def ajuda(com):
-    
+    help(com)
 #Programa Principal
 comando = ''
 while True:
     comando = str(input("Função ou Biblioteca: "))
-    if comandox.upper() == 'FIM':
+    if comando.upper() == 'FIM':
         break
     else:
         ajuda(comando)
