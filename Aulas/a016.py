@@ -5,7 +5,13 @@ def fatorial(numero):
         f *= c
     return f
 
-    
+
+def dobro(n):
+    return n * 2
+
+
+def triplo(n):
+    return n * 3
 # Programa principal
 num =  int(input("Digite um numero: "))
 fat = fatorial(num)
