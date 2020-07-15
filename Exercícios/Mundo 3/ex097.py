@@ -3,7 +3,7 @@ def ajuda(com):
     help(com)
 
 
-def título(msg, cor):
+def título(msg, cor = 0):
     tam = len(msg)
     print('-' * tam)
     print(msg)
@@ -17,3 +17,4 @@ while True:
         break
     else:
         ajuda(comando)
+        título('Até Logo!')
