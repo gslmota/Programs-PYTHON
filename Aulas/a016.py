@@ -1,6 +1,5 @@
 # Aula de Modularização
-# Voce tera mais organização
-
+# Voce tera mais organização, facil manutenção, ocultar codigo, reutilização
 # Arquivo de Modulos : Uteis
 import uteis
 # Programa principal
