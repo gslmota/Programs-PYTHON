@@ -3,4 +3,7 @@ def aumentar():
 
 def diminuir():
 
-def 
+def dobro():
+
+def metade():
+    
