@@ -1,9 +1,9 @@
 # Estudo de Modularização
-def aumentar():
+def aumentar(preco, taxa):
+    return 
 
-def diminuir():
+def diminuir(preco, taxa):
 
-def dobro():
+def dobro(preco):
 
-def metade():
-    
+def metade(preco):
