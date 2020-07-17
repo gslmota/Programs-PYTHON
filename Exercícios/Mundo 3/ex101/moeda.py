@@ -27,3 +27,5 @@ def resumo(preco = 0, taxaa = 10, taxar = 5):
     print('-' * 30)
     print('Resumo do Valor')
     print('-' * 30)
+    print(f'Preço analisado: {moeda(preco)}')
+    print(f'Dobro do preço: {dobro(preco, True)}')
