@@ -1,22 +1,22 @@
 # Estudo de Modularização
 def aumentar(preco, taxa, format = False):
     res = preco + (preco * taxa)/100
-    return res if format is False else moeda(preco)
+    return res if format is False else moeda(res)
 
 
-def diminuir(preco, taxa):
+def diminuir(preco, taxa, format = False):
     res = preco - (preco * taxa)/100
-    return res
+    return res if format is False else moeda(res)
     
 
-def dobro(preco):
+def dobro(preco, format = False):
     res = preco * 2
-    return res
+    return res if format is False else moeda(res)
 
     
-def metade(preco):
+def metade(preco, format = False):
     res = preco / 2
-    return res
+    return res if format is False else moeda(res)
 
 
 def moeda(preco = 0, moeda = 'R$'):
