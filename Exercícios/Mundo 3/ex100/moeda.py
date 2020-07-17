@@ -1,7 +1,7 @@
 # Estudo de Modularização
-def aumentar(preco, taxa):
+def aumentar(preco, taxa, format = False):
     res = preco + (preco * taxa)/100
-    return res
+    return res if format is False else moeda(preco)
 
 
 def diminuir(preco, taxa):
