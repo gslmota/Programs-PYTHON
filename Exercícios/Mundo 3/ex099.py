@@ -3,4 +3,8 @@ import urllib
 import urllib.request
 # Programa principal
 try:
-    site = urllib.request.urlopen()
+    site = urllib.request.urlopen('http://www.pudim.com.br')
+except:
+    print('Ocorreu um erro!')
+else:
+    
