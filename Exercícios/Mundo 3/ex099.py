@@ -3,4 +3,4 @@ import urllib
 import urllib.request
 # Programa principal
 try:
-    site = 
+    site = urllib.request.urlopen()
