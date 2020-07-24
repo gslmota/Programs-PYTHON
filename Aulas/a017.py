@@ -7,3 +7,5 @@ except:
     print('Nao funcionou')
 else:
     print(c)
+finally:
+    print('Bye Bye')
