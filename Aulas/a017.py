@@ -5,4 +5,5 @@ try:
     c = a/b
 except:
     print('Nao funcionou')
-print(c)
+else:
+    print(c)
