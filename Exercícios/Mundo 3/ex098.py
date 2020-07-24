@@ -11,3 +11,4 @@ def leiaInt(msg):
 
 
 # Programa principal
+num = leiaInt('Digite um numero: ')
