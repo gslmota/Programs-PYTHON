@@ -1,4 +1,5 @@
 # Aula de Tratamento de erros e exceções
+# pode ter mais de except em um mesmo try
 try:
     a = int(input("Digite um num: "))
     b = int(input('Digite um num'))
