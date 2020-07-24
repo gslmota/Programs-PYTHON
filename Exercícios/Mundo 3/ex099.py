@@ -5,6 +5,6 @@ import urllib.request
 try:
     site = urllib.request.urlopen('http://www.pudim.com.br')
 except urllib.error.URLError:
-    print('Ocorreu um erro!')
+    print('Ocorreu um erro! O site não esta acessível!')
 else:
-    print('Deu tudo certo!')
+    print('Deu tudo certo! O site está acessível!')
