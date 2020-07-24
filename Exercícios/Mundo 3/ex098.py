@@ -12,3 +12,4 @@ def leiaInt(msg):
 
 # Programa principal
 num = leiaInt('Digite um numero: ')
+print(f'O valor digitado foi {num}!')
