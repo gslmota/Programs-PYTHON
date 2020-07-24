@@ -4,4 +4,5 @@ try:
     b = int(input('Digite um num'))
     c = a/b
 except:
-    print(c)
+    print('Nao funcionou')
+print(c)
