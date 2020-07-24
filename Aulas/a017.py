@@ -4,6 +4,8 @@ try:
     a = int(input("Digite um num: "))
     b = int(input('Digite um num'))
     c = a/b
+except ValueError:
+    print('problema nos dados')
 except Exception as erro:
     print(f'Nao funcionou{erro.__class__}')
 else:
