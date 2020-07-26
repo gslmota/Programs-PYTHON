@@ -1,6 +1,12 @@
 from lib.interface import *
 from lib.arquivo import *
 from time import sleep
+arquivo = 'projeto.txt'
+if arqExiste(arquivo):
+    print('Arquivo encontrado com sucesso!')
+else:
+    print('Arquivo não existe!')
+    
 cabecalho('Sistema Arquivo v1.0')
 while  True:
     resposta = menu(['Cadastrar Pessoas', 'Listar Pessoas', 'Sair do Sistema'])
