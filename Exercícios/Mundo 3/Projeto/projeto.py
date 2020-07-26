@@ -1,4 +1,5 @@
 from lib.interface import *
+from lib.arquivo import *
 from time import sleep
 cabecalho('Sistema Arquivo v1.0')
 while  True:
