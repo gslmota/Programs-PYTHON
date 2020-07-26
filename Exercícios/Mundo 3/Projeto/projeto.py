@@ -11,7 +11,10 @@ while  True:
     if resposta == 1:
         lerArq(arquivo)
     elif resposta == 2:
-        cabecalho('Opção 2')
+        cabecalho('Novo Cadastro')
+        nome = str(input('Digite o nome: '))
+        idade = leiaInt('Digite a idade: ')
+        cadastrar(arquivo, nome, idade)
     elif resposta == 3:
         cabecalho('Saindo do Sistema!')
         break
