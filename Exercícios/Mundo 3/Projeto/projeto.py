@@ -7,7 +7,7 @@ if not arqExiste(arquivo):
 
 cabecalho('Sistema Arquivo v1.0')
 while  True:
-    resposta = menu(['Cadastrar Pessoas', 'Listar Pessoas', 'Sair do Sistema'])
+    resposta = menu(['Listar Pessoas','Cadastrar Pessoas', 'Sair do Sistema'])
     if resposta == 1:
         lerArq(arquivo)
     elif resposta == 2:
