@@ -6,7 +6,8 @@ if arqExiste(arquivo):
     print('Arquivo encontrado com sucesso!')
 else:
     print('Arquivo não existe!')
-    
+    criarArq(arq)
+
 cabecalho('Sistema Arquivo v1.0')
 while  True:
     resposta = menu(['Cadastrar Pessoas', 'Listar Pessoas', 'Sair do Sistema'])
