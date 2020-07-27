@@ -6,5 +6,5 @@ class Computador:
         self.placa = nplaca
     pass
 
-computador1 = Computador()
-computador2 = Computador()
+computador1 = Computador('Acer', '8gb', 'AMD')
+computador2 = Computador('Asus', '16g', 'NVIDIA')
