@@ -1,3 +1,4 @@
+# Programa usando conceitos de OO 
 # class
 class Computador:
     def __init__(self,nmarca, nmemoria, nplaca):
