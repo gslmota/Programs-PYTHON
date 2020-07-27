@@ -11,6 +11,9 @@ class Computador:
     def desligar(self):
         print('Desligando')
 
+    def exibirInfo(self):
+        
+
 computador1 = Computador('Acer', '8gb', 'AMD')
 computador2 = Computador('Asus', '16g', 'NVIDIA')
 print(computador1.marca, computador1.memoria, computador1.placa)
