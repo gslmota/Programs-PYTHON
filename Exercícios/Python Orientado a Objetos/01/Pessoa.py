@@ -53,4 +53,4 @@ class Pessoa:
     @classmethod
     def por_ano_nascimento(cls, nome,ano_nascimento):
         idade = cls.ano_atual - ano_nascimento
-        return
+        return cls(nome, idade)
