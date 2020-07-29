@@ -22,7 +22,7 @@ class Pessoa:
         print(f'{self.nome} parou de falar.')
         self.falando = False
 
-        
+
     def comer(self, alimento):
         if self.comendo:
             print(f'{self.nome} já está comendo!')
@@ -30,6 +30,10 @@ class Pessoa:
         
         print(f'{self.nome} está comendo {alimento}!')
         self.comendo = True
+
+        if self.falando:
+            print(f'{self.nome} não pode comer falando!')
+            return 
 
 
     def parar_de_comer(self):
