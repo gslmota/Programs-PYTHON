@@ -4,3 +4,8 @@ class Pessoa:
        self.idade = idade
        self.comendo = comendo
        self.falando = falando
+
+   def comer(self):
+        print(f'{self.nome} está comendo!')
+        self.comendo = True
+
