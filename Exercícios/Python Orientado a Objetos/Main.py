@@ -1,7 +1,5 @@
-from pythonorientadoaobjetos import Pessoa
-p1 = Pessoa()
-p2 = Pessoa()
-p1.nome = 'Gabriel'
-p2.nome = 'Maria'
+import Pessoa
+p1 = Pessoa('Gabriel', 19)
+p2 = Pessoa('maria',13)
 print(p1.nome)
 print(p2.nome)
