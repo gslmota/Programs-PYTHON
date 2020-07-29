@@ -13,3 +13,6 @@ class Pessoa:
         print(f'{self.nome} está comendo {alimento}!')
         self.comendo = True
 
+
+    def parar_de_comer(self):
+        
