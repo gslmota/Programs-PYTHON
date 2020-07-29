@@ -5,7 +5,7 @@ class Pessoa:
        self.comendo = comendo
        self.falando = falando
 
-   def comer(self):
-        print(f'{self.nome} está comendo!')
+   def comer(self, alimento):
+        print(f'{self.nome} está comendo {alimento}!')
         self.comendo = True
 
