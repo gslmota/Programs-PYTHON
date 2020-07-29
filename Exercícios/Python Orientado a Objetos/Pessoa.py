@@ -15,4 +15,8 @@ class Pessoa:
 
 
     def parar_de_comer(self):
-        
+        if not self.comendo:
+            print(f'{self.nome} não está comendo.')
+            return
+        print(f'{self.nome} parou de comer.')
+        self.comendo = False
