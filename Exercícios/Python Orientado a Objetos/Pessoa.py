@@ -1,6 +1,7 @@
 from datetime import datetime
 class Pessoa:
-    ano_atual = 
+    ano_atual = int(datetime.strptime(datetime.now(), '%Y'))
+    
     def __init__(self, nome, idade, comendo = False, falando = False):
        self.nome = nome
        self.idade = idade
