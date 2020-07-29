@@ -1,3 +1,3 @@
 class Pessoa:
-    def falar(self):
-        print('Estou falando!')
+   def __init__(self, nome, idade, comendo = False, falando = False):
+       pass
