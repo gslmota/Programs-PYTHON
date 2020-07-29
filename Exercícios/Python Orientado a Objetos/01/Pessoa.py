@@ -1,4 +1,3 @@
-from datetime import datetime
 class Pessoa:
     ano_atual = int(datetime.strptime(datetime.now(), '%Y'))
 
