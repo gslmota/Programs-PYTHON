@@ -57,7 +57,7 @@ class Pessoa:
         return cls(nome, idade)
     
 
-    @staticmethod
+    @staticmethod #<- refere tanto a classe, tanto como uma função normal
     def gera_id():
         n = random.randint(1000, 1900)
         return n
