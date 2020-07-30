@@ -59,3 +59,4 @@ class Pessoa:
 
     @staticmethod
     def gera_id():
+        return 
