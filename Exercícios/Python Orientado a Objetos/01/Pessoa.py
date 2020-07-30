@@ -51,7 +51,7 @@ class Pessoa:
         return self.ano_atual - self.idade
 
 
-    @classmethod
+    @classmethod  #<-  é referente a classe em si
     def por_ano_nascimento(cls, nome,ano_nascimento):
         idade = cls.ano_atual - ano_nascimento
         return cls(nome, idade)
