@@ -39,7 +39,7 @@ class Pessoa:
             return 
 
 
-    def parar_de_comer(self):
+    def parar_de_comer(self): # <- é um metodo de instancia
         if not self.comendo:
             print(f'{self.nome} não está comendo.')
             return
