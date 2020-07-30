@@ -59,4 +59,5 @@ class Pessoa:
 
     @staticmethod
     def gera_id():
+        n = random.randint()
         return random.randint(a, b)
