@@ -8,6 +8,16 @@ class Produto:
         self.preco = self.preco - ((self.preco * percentual) / 100)
 
 
+    #getter
+    @property
+    def preco(self):
+        return _preco
+
+
+    
+
+
+
 # classe main
 p1 = Produto('Camiseta', 50)
 p1.desconto(10)
