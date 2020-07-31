@@ -8,4 +8,4 @@ class Produto:
         self.preco = self.preco - ((self.preco * percentual) / 100)
 
 
-# 
+# classe main
