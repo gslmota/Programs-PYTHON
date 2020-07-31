@@ -15,6 +15,8 @@ class Produto:
 
 
     #setter
+    @preco.setter
+    def 
 
 
 
