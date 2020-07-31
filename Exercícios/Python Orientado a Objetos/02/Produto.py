@@ -14,13 +14,24 @@ class Produto:
         return self._preco
 
 
+    @property
+    def name(self):
+        return self._name
+
+
     #setter
     @preco.setter
     def preco(self, valor):
         if isinstance(valor, str):
-            valor = valor.replace('R$', '')
+            valor = float(valor.replace('R$', ''))
+
         self._preco = valor
 
+
+
+    @name.setter
+    def name(self, valor):
+        self._name = valor
 
 
 
