@@ -16,7 +16,11 @@ class Produto:
 
     #setter
     @preco.setter
-    def 
+    def preco(self, valor):
+        if isinstance(valor, str):
+            valor = valor.replace('R$', '')
+        self._preco = valor
+
 
 
 
