@@ -3,3 +3,4 @@ from a import A
 a1 = A()
 a2 = A()
 print(a1.var)
+print(a2.var)
