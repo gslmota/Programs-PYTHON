@@ -7,6 +7,8 @@ class BasedeDados():
     @property
     def dados(self):
         return self._dados
+
+        
     def inserirClientes(self, id, nome):
         if 'clientes' not in self._dados:
             self._dados['clientes'] = {id: nome}
