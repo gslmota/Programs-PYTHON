@@ -1,4 +1,8 @@
 # Conceito de encapsulamento
+'''
+public, protected, private
+
+'''
 class BasedeDados():
     def __init__(self):
         self._dados = {}
@@ -8,7 +12,7 @@ class BasedeDados():
     def dados(self):
         return self._dados
 
-        
+
     def inserirClientes(self, id, nome):
         if 'clientes' not in self._dados:
             self._dados['clientes'] = {id: nome}
