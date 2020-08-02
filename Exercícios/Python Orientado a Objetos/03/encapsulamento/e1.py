@@ -1,7 +1,8 @@
 # Conceito de encapsulamento
 '''
 public, protected, private
-
+_privado/protected  (public _)
+__privado   (NOMEDACLASSE__nomeatributo)
 '''
 class BasedeDados():
     def __init__(self):
