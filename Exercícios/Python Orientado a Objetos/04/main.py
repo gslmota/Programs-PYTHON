@@ -6,3 +6,6 @@ caneta = Caneta('Bic')
 maquina = Maquina()
 print(escritor.nome)
 print(caneta.marca)
+
+escritor.ferramenta = caneta
+escritor.ferramenta.escrever()
