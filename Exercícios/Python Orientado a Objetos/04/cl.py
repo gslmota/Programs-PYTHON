@@ -6,3 +6,7 @@ class Escritor:
     @property
     def nome(self):
         return self.__nome
+
+
+class Caneta:
+    
