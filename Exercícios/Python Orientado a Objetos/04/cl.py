@@ -23,10 +23,14 @@ class Caneta:
         self.__marca = marca
 
     
+    def escrever(self):
+        print('A caneta Está Escrevendo!')
     @property
     def marca(self):
         return self.__marca
 
 
 class Maquina:
-    pass
+    def escrever(self):
+        print('A maquina Está Escrevendo!')
+    
