@@ -16,3 +16,7 @@ class Caneta:
     @property
     def marca(self):
         return self.__marca
+
+
+class Maquina:
+    pass
