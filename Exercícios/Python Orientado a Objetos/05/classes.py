@@ -11,4 +11,6 @@ class CarrinhoDeCompras:
         for produto in self.produtos:
             print(produto.nome, produto.valor)
 class Produto:
-    pass
+    def __init__(self, nome, valor):
+        self.nome = nome
+        self.valor = valor
