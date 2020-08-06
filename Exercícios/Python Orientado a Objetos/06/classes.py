@@ -6,11 +6,13 @@ class Cliente:
     
 
     def inserirEndereco(self, cidade, estado):
-        self.enderecos.append()
+        self.enderecos.append(Endereco(cidade, estado))
+    
+    def listaEnderecos(self):
+        for 
     
 
 class Endereco:
     def __init__(self, cidade, estado):
         self.cidade = cidade
         self.estado = estado
-        
