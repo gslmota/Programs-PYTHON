@@ -7,3 +7,8 @@ class Cliente:
 
     def inserirEndereco(self, cidade, estado):
         self.enderecos.append()
+    
+
+class Endereco:
+    def __init__(self, cidade, estado):
+        
