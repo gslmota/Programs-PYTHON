@@ -13,6 +13,8 @@ class Cliente:
             print(endereco.cidade, endereco.estado)
     
 
+    def __del__(self):
+        print(f'{self.nome} foi apagado da memória!')
 class Endereco:
     def __init__(self, cidade, estado):
         self.cidade = cidade
