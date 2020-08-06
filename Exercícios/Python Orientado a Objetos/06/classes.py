@@ -9,7 +9,8 @@ class Cliente:
         self.enderecos.append(Endereco(cidade, estado))
     
     def listaEnderecos(self):
-        for 
+        for endereco in enderecos:
+            print(endereco.cidade, endereco.estado)
     
 
 class Endereco:
