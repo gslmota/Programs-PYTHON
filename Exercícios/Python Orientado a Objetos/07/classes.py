@@ -15,4 +15,5 @@ class Cliente(Pessoa):
 
 
 class Aluno(Pessoa):
-    pass
+    def estudar(self):
+        print(f'{self.nomeClasse} está estudando!')
