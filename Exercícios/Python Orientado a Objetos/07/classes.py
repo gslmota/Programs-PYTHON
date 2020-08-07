@@ -3,6 +3,10 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
+    
+    def falar(self):
+        print(f'{self.nome} está falando!')
+
 
 class Cliente(Pessoa):
     pass
