@@ -9,7 +9,9 @@ class Pessoa:
 
 
 class Cliente(Pessoa):
-    pass
+    def comprar(self):
+        print(f'{self.nomeClasse} está comprando!')
+
 
 
 class Aluno(Pessoa):
