@@ -1,5 +1,5 @@
 # Conceito de herança simples
-#falta terminar o curso completo
+#falta terminar o curso completo dele na udemy
 from classes import *
 c1 = Cliente('Luiz', 23)
 print(c1.nome, c1.idade)
