@@ -1,4 +1,4 @@
-# Arquivo criado para 
+# Arquivo criado para hospedar as classes criadas!
 class Pessoa:
     def __init__(self, nome, idade):
         self.nome = nome
